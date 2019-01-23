@@ -1,0 +1,8 @@
+{
+  "name": "GoogleBookSearch",
+  "version": "1.0.0",
+  "main": "server.js", 
+  "repository": "https://github.com/ShemikaKW/GoogleBookSearch.git",
+  "author": "ShemikaKW <Shemikakw@gmail.com>",
+  "license": "MIT"
+}
