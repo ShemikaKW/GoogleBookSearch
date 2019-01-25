@@ -54,7 +54,7 @@ class Saved extends Component {
                                         title={book.title}
                                         subtitle={book.subtitle}
                                         link={book.link}
-                                        authors={book.authors(", ")}
+                                        authors={book.authors}
                                         description={book.description}
                                         image={book.image}
                                         Button={() => (
