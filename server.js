@@ -2,7 +2,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Init App
 const app = express();
@@ -27,6 +27,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlesearch",
   );
 
 //Set Port
-app.listen(PORT, () =>
+app.listen(3001, () =>
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`)
 );
