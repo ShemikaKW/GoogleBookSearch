@@ -30,6 +30,6 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlesearch",
 
 
 //Set Port
-app.listen(3001, () =>
+app.listen(process.env.PORT || 3001, () =>
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`)
 );
